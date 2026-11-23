@@ -8,7 +8,7 @@ on:
 permissions: { contents: read }
 jobs:
   build:
-    uses: hollis-labs/tools/.github/workflows/go-app-build.yml@7aeb3f65de07c0c41cb0e59a1d6f8300fa3381bc
+    uses: hollis-labs/substrate/.github/workflows/go-app-build.yml@5f5d31dc10a9788ce322ef097f7b11c2f796ff03
     with:
       working_directory: .
       targets: '["linux/amd64"]'
